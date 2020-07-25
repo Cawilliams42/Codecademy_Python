@@ -121,12 +121,3 @@ def print_cheapest_shipping_method(weight):
 
 print_cheapest_shipping_method(4.8)
 print_cheapest_shipping_method(41.5)
-
-
-echo "# Codecademy_Python" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Cawilliams42/Codecademy_Python.git
-git push -u origin master
-                
