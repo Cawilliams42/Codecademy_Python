@@ -121,3 +121,30 @@ def print_cheapest_shipping_method(weight):
 
 print_cheapest_shipping_method(4.8)
 print_cheapest_shipping_method(41.5)
+
+4.1 - Python Gradebook Project
+last_semester_gradebook = [("politics", 80), ("latin", 96), ("dance", 97), ("architecture", 65)]
+subjects = ["physics", "calculus", "poetry", "history"]
+grades = [98, 97, 85, 88]
+subjects.append("computer science")
+grades.append(100)
+gradebook = list(zip(subjects, grades))
+gradebook.append(("visual arts", 93))
+print(list(gradebook))
+full_gradebook = gradebook + last_semester_gradebook
+print(list(full_gradebook))
+
+4.2 Len's Slices Project
+toppings = ['pepperoni', 'pineapple', 'cheese', 'sausage', 'olives', 'anchovies', 'mushrooms']
+prices = [2, 6, 1, 3, 2, 7, 2]
+num_pizzas = len(toppings)
+print("We sell " + str(num_pizzas) + " kinds of pizza!")
+pizzas = list(zip(prices, toppings))
+print(pizzas)
+pizzas.sort
+cheapest_pizza = pizzas[0]
+priciest_pizza = pizzas[-1]
+three_cheapest = pizzas[:3]
+print(three_cheapest)
+num_two_dollar_slices = prices.count(2)
+print(num_two_dollar_slices)
